@@ -112,7 +112,7 @@
   }
 
   /* ═══════ 表格 ═══════ */
-  table { width: 100%; border-collapse: collapse; font-size: 0.92rem; line-height: 1.65; table-layout: fixed; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.92rem; line-height: 1.65; table-layout: auto; }
   th {
     text-align: left; font-weight: 600;
     font-size: 0.8rem; letter-spacing: 0.05em;
@@ -788,7 +788,7 @@
 </div>
 
 <h4>第一步：峰值日唯一访客拆分</h4>
-<div class="card"><table style="table-layout:auto">
+<div class="card"><table>
 <tr><th style="width:20%">访客类型</th><th style="width:26%">峰值日人数</th><th style="width:54%">重叠处理说明</th></tr>
 <tr><td><strong>酒店过夜客</strong></td><td class="num">约 750–900（290 间 × 2.6–3.1 人/间）</td><td>其中 ~85% 会去水乐园、~60% 会去乐园——<strong>已在下面两行中</strong>。他们的车停一次、过夜</td></tr>
 <tr><td><strong>水乐园到访客（含酒店客）</strong></td><td class="num">约 6,000–8,000</td><td>其中 ~15% 是酒店客（已计）、~35% 同日也去了乐园。扣除酒店客后净增量约 5,100–6,800</td></tr>
@@ -797,7 +797,7 @@
 </table></div>
 
 <h4>第二步：出行方式拆分 → 高峰小时同时在场车辆</h4>
-<div class="card"><table style="table-layout:auto">
+<div class="card"><table>
 <tr><th style="width:20%">环节</th><th style="width:44%">计算</th><th style="width:36%">关键参数与依据</th></tr>
 <tr><td><strong>① 出行方式</strong></td><td>私家车 ~65–70%（亲子家庭为主，自驾比例高于纯乐园）<br>轨交/接驳 ~15–20%（园区站 + S1 接驳已运营）<br>网约车/出租/大巴 ~10–15%</td><td>现有乐园自驾比例估计 ~75%。水乐园+酒店综合体因停留更久、行李更多，自驾比例不会更低。轨交折减约 15–20% 是合理的上限——<strong>亲子家庭提大包小包坐地铁接驳车的意愿有限</strong></td></tr>
 <tr><td><strong>② 单车载客</strong></td><td>3.0–3.5 人/车（亲子家庭为主，高于纯乐园均值）</td><td>主题乐园行业均值 2.8–3.2，亲子度假酒店偏高（3.2–3.8），取中</td></tr>
@@ -976,7 +976,7 @@
 <!-- ── 增量业态总结 ── -->
 <h4>增量业态总结：投资与空间占用的量级判断</h4>
 <div class="card"><table>
-<tr><th>业态</th><th>建议</th><th>规模</th><th>追加投资（万元）</th><th>占地/建面（㎡）</th><th>优先级</th></tr>
+<tr><th style="width:14%">业态</th><th style="width:18%">建议</th><th style="width:15%">规模</th><th style="width:16%">追加投资（万元）</th><th style="width:24%">占地/建面（㎡）</th><th style="width:13%">优先级</th></tr>
 <tr><td>水族（海底隧道展廊）</td><td>做，融入室内水乐园</td><td>1,500–2,500 ㎡</td><td class="num">3,000–5,000</td><td class="num">1,500–2,500（建面）</td><td><span class="badge badge-high">P0</span></td></tr>
 <tr><td>飞鸟（湖畔飞鸟半岛）</td><td>做，室外水乐园边缘</td><td>2.0–3.3 公顷</td><td class="num">2,000–3,500</td><td class="num">20,000–33,000（占地）</td><td><span class="badge badge-high">P1</span></td></tr>
 <tr><td>潜水（室内休闲体验池）</td><td>做，融入室内水乐园</td><td>800–1,200 ㎡</td><td class="num">800–1,500</td><td class="num">800–1,200（建面）</td><td><span class="badge badge-high">P1</span></td></tr>
