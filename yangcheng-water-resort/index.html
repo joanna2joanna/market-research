@@ -16,16 +16,16 @@
     --text2: #5f6b7a;
     --text3: #8b95a5;
     --border: #e5e7eb;
-    --accent: #d97706;
-    --accent-light: #fffbeb;
-    --red: #dc2626;
-    --amber: #d97706;
-    --green: #059669;
-    --hero-bg: #292524;
-    /* 递进色阶（12 模块·暖色系） */
-    --s0: #d97706; --s1: #b45309; --s2: #92400e; --s3: #a16207;
-    --s4: #b91c1c; --s5: #c2410c; --s6: #b45309; --s7: #d97706;
-    --s8: #a16207; --s9: #b91c1c; --s10: #854d0e; --s11: #78716c;
+    --accent: #a16207;
+    --accent-light: #fef9ef;
+    --red: #b91c1c;
+    --amber: #a16207;
+    --green: #4d7c0f;
+    --hero-bg: #1c1917;
+    /* 递进色阶（12 模块·暖灰+低饱和大地色） */
+    --s0: #a16207; --s1: #92400e; --s2: #854d0e; --s3: #b45309;
+    --s4: #9a3412; --s5: #a16207; --s6: #92400e; --s7: #a16207;
+    --s8: #854d0e; --s9: #b91c1c; --s10: #78716c; --s11: #57534e;
   }
   html { font-size: 19px; }
   body {
@@ -40,7 +40,7 @@
 
   /* ═══════ Hero ═══════ */
   .hero {
-    background: linear-gradient(135deg, #292524 0%, #78350f 50%, #292524 100%);
+    background: linear-gradient(135deg, #1c1917 0%, #341f12 50%, #1c1917 100%);
     color: #f1f5f9;
     padding: 88px 0 72px;
     text-align: center;
@@ -200,7 +200,7 @@
     margin: -2px; position: relative; z-index: 1; font-weight: 600;
   }
 
-  .forecast-range { background: rgba(217,119,6,0.06); font-weight: 600; }
+  .forecast-range { background: rgba(161,98,7,0.06); font-weight: 600; }
 
   /* ═══════ 风险 ═══════ */
   .risk-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; margin: 22px 0; }
