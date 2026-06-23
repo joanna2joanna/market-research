@@ -21,7 +21,7 @@
     --red: #ef4444;
     --amber: #f59e0b;
     --green: #10b981;
-    --hero-bg: #1e3a5f;
+    --hero-bg: #e0f2fe;
     /* 递进色阶（12 模块·明媚清新） */
     --s0: #3b82f6; --s1: #6366f1; --s2: #8b5cf6; --s3: #06b6d4;
     --s4: #10b981; --s5: #f59e0b; --s6: #6366f1; --s7: #3b82f6;
@@ -40,18 +40,18 @@
 
   /* ═══════ Hero ═══════ */
   .hero {
-    background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 50%, #1e3a5f 100%);
-    color: #f1f5f9;
+    background: linear-gradient(180deg, #e0f2fe 0%, #f0f9ff 40%, #ffffff 100%);
+    color: #1e293b;
     padding: 88px 0 72px;
     text-align: center;
   }
   .hero .tag { font-size: 0.82rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
   .hero h1 { font-family: var(--serif); font-size: 2.6rem; font-weight: 700; margin: 0 0 10px; letter-spacing: 0.02em; }
-  .hero .subtitle { font-size: 1.1rem; color: #9ca3af; max-width: 680px; margin: 0 auto 44px; line-height: 1.8; }
+  .hero .subtitle { font-size: 1.1rem; color: #475569; max-width: 680px; margin: 0 auto 44px; line-height: 1.8; }
   .hero-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; max-width: 860px; margin: 0 auto; }
-  .hero-kpi { background: rgba(255,255,255,0.05); border-radius: 8px; padding: 22px 14px; }
+  .hero-kpi { background: rgba(255,255,255,0.7); border: 1px solid rgba(59,130,246,0.12); border-radius: 8px; padding: 22px 14px; }
   .hero-kpi .value { font-family: var(--mono); font-size: 1.55rem; font-weight: 700; color: var(--accent); }
-  .hero-kpi .label { font-size: 0.78rem; color: #9ca3af; margin-top: 6px; }
+  .hero-kpi .label { font-size: 0.78rem; color: #64748b; margin-top: 6px; }
 
   /* ═══════ 布局 ═══════ */
   .container { max-width: 960px; margin: 0 auto; padding: 0 28px; }
@@ -219,8 +219,8 @@
   .limit-card .fix { color: var(--text2); font-size: 0.85rem; line-height: 1.75; }
 
   /* ═══════ Footer ═══════ */
-  footer { background: var(--hero-bg); color: #6b7280; text-align: center; padding: 44px 0; font-size: 0.85rem; line-height: 1.8; }
-  footer .disclaimer { max-width: 680px; margin: 14px auto 0; font-size: 0.78rem; color: #4b5563; line-height: 1.8; }
+  footer { background: #f1f5f9; color: #475569; text-align: center; padding: 44px 0; font-size: 0.85rem; line-height: 1.8; }
+  footer .disclaimer { max-width: 680px; margin: 14px auto 0; font-size: 0.78rem; color: #64748b; line-height: 1.8; }
 
   /* ═══════ 响应式 ═══════ */
   @media (max-width: 768px) {
